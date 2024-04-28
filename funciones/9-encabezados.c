@@ -13,6 +13,11 @@ int main() {
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
 
+    // Llama a funcion 5
+    v = funcion5(10);
+
+    // Imprime el valor que retornó funcion3()
+    printf("v = %d\n", v);
     return 0;
 
 }
@@ -33,5 +38,13 @@ void funcion2(int a, float b) {
 int funcion3(int x) {
     printf("En funcion3()...\n");
     int y = x + 2;
+    return y;
+}
+
+// funcion5(): Imprime un mensaje. Retorna el valor que recibió como argumento
+// sumando 314
+int funcion3(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 314;
     return y;
 }
