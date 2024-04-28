@@ -16,7 +16,7 @@ int main() {
     // Llama a funcion 5
     v = funcion5(10);
 
-    // Imprime el valor que retornó funcion3()
+    // Imprime el valor que retornó funcion5()
     printf("v = %d\n", v);
     return 0;
 
